@@ -206,16 +206,6 @@ Permission denied: Assignment 1 - Test cases.xlsx
 
 Close the Excel file completely and run the automation again.
 
-### File Not Found Error
-
-If the script cannot find the Excel file, use the full file path or make sure the terminal is opened in the correct project folder.
-
-Example:
-
-```bash
-python .\test_automation.py --excel "D:\SLIIT\3year1sem\ITPM\Test assign\test_automation\IT3040-Assignment1-Singlish-Transliteration-Testing\Assignment 1 - Test cases.xlsx" --url "https://www.pixelssuite.com/chat-translator" --wait-ms 12000 --retries 25 --retry-wait-ms 2000 --type-delay-ms 120 --slow-mo-ms 300 --save-every 1 --keep-open
-```
-
 ### Failed to Fetch Error
 
 If the website shows **Failed to fetch**, test the website manually first. Automation should be run only when the website successfully returns Sinhala output.
